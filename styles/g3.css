@@ -85,6 +85,7 @@ ul>li>a{
 .banner-image{
     margin-top: 3.1rem;
     width: 100%;
+    margin-bottom: 45px;
     
 }
 
@@ -96,6 +97,32 @@ ul>li>a{
     }
 }
 
+
+
+/* section-1 */
+.section-1{
+    display: flex;
+    max-width: 1240px;
+    margin: 0 auto;
+    margin-top: 85px;
+    align-items: center;
+}
+.img-div{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-right: 73px;
+    gap: 25px;
+}
+.div-container{
+    
+}
+.span-3{
+    color: rgba(255, 144, 14, 1);
+}
+.div-container-header{
+    font-weight: 500;
+    font-size: 2.8rem;
+}
 
 
 
