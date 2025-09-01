@@ -125,5 +125,27 @@ ul>li>a{
 }
 
 
+/* responsive for section-1 */
+@media screen and (max-width:576px){
+    .section-1{
+        flex-direction: column;
+    }
+    .img-div{
+         grid-template-columns: repeat(1,1fr);
+         margin: 0 auto;
+    }
+    .div-container{
+        padding: 20px;
+    }
+}
+@media screen and (min-width:576px) and (max-width:992px){
+    .section-1{
+        flex-direction: column;
+    }
+    .div-container{
+        padding-left: 63px;
+    }
+}
+
 
 
